@@ -27,14 +27,14 @@ button{
 }
 
 .banner-container{
-   max-width: 1510px;
+    max-width: 1510px;
     height: 652px;
     margin-top:30px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-
+  
    
 }
 
@@ -50,6 +50,7 @@ button{
 font-weight: 800;
 line-height: 68px;
 margin-top: 20px;
+margin-bottom: 10px;
 }
 
 #banner-content p{
@@ -66,4 +67,76 @@ line-height: 26px;
     color: white;
 }
 
+#body-content1{
+    width: 1140px;
+  height: 1395px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  border: 2px solid red ;
+}
+
+#text{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+ #text h1{
+    
+   font-size: 40px;
+font-weight: 800;
+line-height: 17px;
+margin-top:10 px;
+margin-bottom: 12px;
+}
+ #text p{
+    margin-top: 60px;
+    font-size: 29Spx;
+    font-weight: 400;
+    line-height: 26px;
+margin-top:3px;
+}
+
+ #card-text{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+   
+
+}
+#card-text button{
+    width: 150px;
+    height: 48px;
+    margin-top: 13px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    padding: 12px 20px 12px 20px;
+}
+#card1{
+    width: 900px;
+    height: 336px;
+    margin:48px auto;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   
+}
+#card1-pic{
+    width: 259.56px;
+    height: 217.01px;
+    margin-top: 19px;
+}
+
+#card-text h1{
+    margin-top: 8px;
+    margin-bottom: 2px;
+    margin-left: 28px;
+} 
+#card-text p{
+    margin-top:2px;
+    margin-left: 50px;
+    margin-bottom: 7px;
 }
