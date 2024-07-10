@@ -80,7 +80,7 @@ line-height: 26px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
+   
 }
  #text h1{
     
@@ -248,7 +248,7 @@ margin-top:3px;
     justify-content: center;
     align-items: center;
     margin:0 auto;
-    border:2px solid black;
+   
 }
 
 #part1 .video{
@@ -479,4 +479,37 @@ margin-left: 20px;
 border-radius: 8px;
 background: rgb(255, 255, 255)
 
+}
+/*footer part*/
+
+#last-part{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}
+#l-pic{
+    width:300px;
+   display: flex;
+   padding-bottom:10px;
+  
+} 
+
+#pic1{
+    width: 13.25px;
+height: 28.25px;
+margin-right: 20px; 
+}
+
+#pic2{
+width: 36.86px;
+height: 35.95px;
+margin-left:50px;
+}
+#pic3{
+    width: 36.86px;
+    height: 35.95px;
+    margin-left:50px;
+ 
 }
