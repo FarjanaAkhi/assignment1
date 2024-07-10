@@ -283,4 +283,129 @@ text-align: center;
 margin-bottom: 30px;
 }
 
+#current-target{
+    
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px;
+}
+#current-target h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+padding-top :90px;
+}
+
+#current-target p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+}
+
+#container2{
+width: 1140px;
+height: 300px;
+
+display:flex;
+margin : 0 auto;
+
+}
+
+#smallcard1{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background-color: rgb(255, 245, 254);
+
+   
+}
+
+#smallcard1 img{
+    margin-left: 20px;
+}
+#smallcard1 h1 {
+    width: 284px;
+    height: 36px;
+    margin-left:0;
+    margin-bottom:4px;
+    margin-top: 2px;
+}
+
+#smallcard1 p{
+
+    
+    margin-left: 25px;
+}
+
+#smallcard1 a{
+    margin-left: 25px;
+}
+
+
+#smallcard2{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    text-align: left;
+   
+    border-radius: 16px;
+
+    border-radius: 16px;
+
+    background-color:rgb(223, 253, 243)
+    
+    
+}
+
+#smallcard2 h1{
+    margin-left: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+#smallcard2 p{
+    margin-left: 25px;
+}
+#smallcard2 a{
+    margin-left: 25px;
+}
+#smallcard2 img{
+    margin-left: 20px;
+}
+
+#smallcard3{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+#smallcard3 h1{
+    margin-left: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+#smallcard3 p{
+    margin-left: 25px;
+}
+#smallcard3 a{
+    margin-left: 25px;
+}
+#smallcard3 img{
+    margin-left: 20px;
+}
   
