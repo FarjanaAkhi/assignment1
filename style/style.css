@@ -19,11 +19,15 @@ h1{
 margin: 60px;
 
 }
+#banner-content a{
+    text-decoration: none;
+}
 button{
     margin-left: 800px;
     width: 228px;
     height: 58px;
     border-radius: 5px;
+    
 }
 
 .banner-container{
